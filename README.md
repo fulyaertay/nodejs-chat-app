@@ -5,11 +5,11 @@
 
 ![image](./chat-app.gif)
 
-## Visulation Chat Screen for User 1
+## Visulation of Chat Screen for User 1
 
 ![image](./user1.png)
 
-## Visulation Chat Screen for User 2
+## Visulation of Chat Screen for User 2
 
 ![image](./user2.png)
 
