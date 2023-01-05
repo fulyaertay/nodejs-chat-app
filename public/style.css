@@ -39,3 +39,20 @@ h2{
     font-size:13px;
     padding: 12px;
 }
+
+#output strong{
+    color:#0085ad;
+}
+
+input{
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 20px;
+    border:0;
+    border-top:1px solid #ccc;
+    display:block;
+    width:100%;
+    font-size: 15px;
+}
+button{
+    font-family: 'Nunito', sans-serif;
+}
