@@ -18,7 +18,7 @@ submitBtn.addEventListener('click',()=>{
 
 socket.on('chat',data=>{
     feedback.innerHTML='';
-    output.innerHTML+='<p class="blue-text"><strong>'+ data.sender+ ':</strong>'+'<span class="black-text">'+data.message+'</span></p>'
+    output.innerHTML+='<p class="blue-text " ><strong>'+ data.sender+ ':</strong>'+'<span class="black-text">'+data.message+'</span></p>'
     message.value='';
 })
 
