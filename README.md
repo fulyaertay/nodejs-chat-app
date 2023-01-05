@@ -15,7 +15,7 @@
 
 
 ## Description
-Chat App provides a connection between different users that they connect on differen browsers so they can send messages to each other on client side.
+Chat App provides a connection between different users that they connect on different browsers so they can send messages to each other on client side.
 
 
 
