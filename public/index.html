@@ -11,39 +11,52 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    
-    <div class="container " style="  max-width:500px;
-    margin:30px auto;  border: 1px solid #ccc;
-    border-radius:5px;">
-        <h2 class="card-panel blue darken-1 white-text ">FE Chat</h2>
-        <div id="chat-window" style="height:400px; overflow-y:auto;">
-            <!--gelen mesajları göstermesi için-->
-            <div id="output" class="  darken-4" style="    padding: 12px;">
+    <div
+      class="container"
+      style="
+        max-width: 500px;
+        margin: 30px auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      "
+    >
+      <h2 class="card-panel blue darken-1 white-text">FE Chat</h2>
+      <div id="chat-window" style="height: 400px; overflow-y: auto">
+        <!--gelen mesajları göstermesi için-->
+        <div id="output" class="darken-4" style="padding: 12px"></div>
+        <!--kullanıcı tarafında kim yazmaya başladıysa görüntülenmesi için-->
+        <div id="feedback" style="padding-left: 12px"></div>
+      </div>
+      <div class="input-field" style="padding-left: 20px">
+        <input type="text" id="sender" placeholder="Name" />
+      </div>
 
-            </div>
-            <!--kullanıcı tarafında kim yazmaya başladıysa görüntülenmesi için-->
-            <div id="feedback"  style="padding-left: 12px;">
-                
-                
-            </div>
-        </div>
-        <div class="input-field" style="padding-left:20px">  <input type="text" id="sender"  placeholder="Name" ></div>
-      
-        <div class="input-field" style="padding-left:20px"><input type="text" id="message"  placeholder="Message"></div>
-       <button style="width:100%" class="btn waves-effect blue darken-1 white-text" type="submit" id="submitBtn">Submit
-            <i class="material-icons right">send</i>
-          </button>
- 
-        
+      <div class="input-field" style="padding-left: 20px">
+        <input type="text" id="message" placeholder="Message" />
+      </div>
+      <button
+        style="width: 100%"
+        class="btn waves-effect blue darken-1 white-text"
+        type="submit"
+        id="submitBtn"
+      >
+        Submit
+        <i class="material-icons right">send</i>
+      </button>
     </div>
-     <!-- Compiled and minified JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="chat.js"></script>
-
   </body>
 </html>
