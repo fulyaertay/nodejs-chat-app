@@ -1,4 +1,4 @@
-## Project: Real Time Chat App
+## Project: Chat App
 
 
 ## Animation of the App
