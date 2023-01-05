@@ -18,7 +18,7 @@ submitBtn.addEventListener('click',()=>{
 
 socket.on('chat',data=>{
     feedback.innerHTML='';
-    output.innerHTML+='<p><strong>'+ data.sender+ ':</strong>'+data.message+'</p>'
+    output.innerHTML+='<p class="blue-text"><strong>'+ data.sender+ ':</strong>'+'<span class="black-text">'+data.message+'</span></p>'
     message.value='';
 })
 
@@ -27,5 +27,5 @@ message.addEventListener('keypress',()=>{
 })
 
 socket.on('typing',data=>{
-    feedback.innerHTML='<p>'+data+' is writing...</p>'
+    feedback.innerHTML='<p><strong>'+data+' is writing...</strong></p>'
 })

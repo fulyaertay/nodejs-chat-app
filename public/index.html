@@ -13,24 +13,30 @@
     ></script>
      <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-    <div id="chat-wrap">
-        <h2>FE Chat</h2>
-        <div id="chat-window">
+    
+    <div class="container ">
+        <h2 class="card-panel blue darken-1 white-text ">FE Chat</h2>
+        <div id="chat-window" style="height:400px; overflow-y:auto;">
             <!--gelen mesajları göstermesi için-->
-            <div id="output">
+            <div id="output" class="  darken-4">
 
             </div>
             <!--kullanıcı tarafında kim yazmaya başladıysa görüntülenmesi için-->
-            <div id="feedback">
+            <div id="feedback" class="flow-text">
+                
                 
             </div>
         </div>
-        <input type="text" id="sender" placeholder="Name">
-        <input type="text" id="message" placeholder="Message">
-        <button id="submitBtn"> Send </button>
+        <input type="text" id="sender"  placeholder="Name">
+        <input type="text" id="message"  placeholder="Message">
+       <button style="width:100%" class="btn waves-effect blue darken-1 white-text" type="submit" id="submitBtn">Submit
+            <i class="material-icons right">send</i>
+          </button>
+ 
+        
     </div>
      <!-- Compiled and minified JavaScript -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
